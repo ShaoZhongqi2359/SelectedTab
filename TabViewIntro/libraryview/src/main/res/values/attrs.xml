@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabSelectView">
+        <attr name="grid_dividerWidth" format="dimension" />
+        <attr name="tab_count" format="integer" />
+        <attr name="tab_back" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SiriusPreferenceHeader">
+        <!--底部tab标题-->
+        <attr name="title" format="string" />
+
+        <attr name="summary" format="string" />
+
+        <!--底部tab icon图片-->
+        <attr name="icon" format="reference" />
+
+        <attr name="fragment" format="string" />
+
+        <!--底部tab 点击事件的Tag标签-->
+        <attr name="clickTag" format="string" />
+
+        <!--是否是当前tab标志位-->
+        <attr name="isSelectedTab" format="boolean" />
+
+        <!--如果是当前tab 选中icon-->
+        <attr name="selectIcon" format="reference" />
+    </declare-styleable>
+
+</resources>

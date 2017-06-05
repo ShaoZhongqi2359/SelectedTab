@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tabSelectView</string>
+    <string name="app_power">电器</string>
+    <string name="app_service">服务</string>
+    <string name="app_my">我的</string>
+
+</resources>
